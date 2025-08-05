@@ -1,5 +1,6 @@
 import speech_recognition as sr
 from voz_para_texto import converter_audio_para_texto
+from analise import classificar_tema
 
 def gravar_audio():
     reconhecedor = sr.Recognizer()
@@ -11,3 +12,7 @@ def gravar_audio():
     texto = converter_audio_para_texto(audio)
     print("\nTranscrição:")
     print(texto)
+    
+# Após transcrever o texto
+tema = classificar_tema(texto)
+print(f"\nTema identificado: {tema}")
