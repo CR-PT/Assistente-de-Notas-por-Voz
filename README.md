@@ -8,3 +8,5 @@ Projeto desenvolvido na UFCD 10790 — Projeto de Programação.
 
 ## Como executar
 1. Instalar dependências:
+## Versão 1.1
+- Áudio captado é agora transcrito automaticamente para texto em português de Portugal.
