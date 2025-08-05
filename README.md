@@ -13,3 +13,6 @@ Projeto desenvolvido na UFCD 10790 — Projeto de Programação.
 ## Versão 1.2
 - Análise de palavras-chave implementada.
 - O sistema sugere automaticamente o tema da nota (trabalho, pessoal, lembrete ou ideia).
+## Versão 1.3
+- Notas agora são guardadas automaticamente em ficheiros `.csv`.
+- Ficheiros são nomeados por data e incluem hora, tema e conteúdo.
