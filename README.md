@@ -16,3 +16,6 @@ Projeto desenvolvido na UFCD 10790 — Projeto de Programação.
 ## Versão 1.3
 - Notas agora são guardadas automaticamente em ficheiros `.csv`.
 - Ficheiros são nomeados por data e incluem hora, tema e conteúdo.
+## Versão 1.4
+- Implementada funcionalidade de consulta de notas guardadas.
+- Possível listar por ficheiro e aplicar filtro por tema.
