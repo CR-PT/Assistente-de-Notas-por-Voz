@@ -19,3 +19,6 @@ Projeto desenvolvido na UFCD 10790 — Projeto de Programação.
 ## Versão 1.4
 - Implementada funcionalidade de consulta de notas guardadas.
 - Possível listar por ficheiro e aplicar filtro por tema.
+## Versão 1.5
+- Interface gráfica com `Tkinter` adicionada.
+- Utilizador pode escolher entre modo consola ou interface com botões.

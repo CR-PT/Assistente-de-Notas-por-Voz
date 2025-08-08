@@ -1,6 +1,6 @@
 from audio import gravar_audio
 from consulta import listar_notas
-
+from interface import executar_interface
 def menu():
     while True:
         print("\n=== Assistente de Notas por Voz ===")
@@ -19,6 +19,10 @@ def menu():
         else:
             print("Opção inválida. Tente novamente.")
 
-
 if __name__ == "__main__":
-    menu()
+    escolha = input("Deseja iniciar com interface gráfica? (s/n): ").lower()
+    if escolha == "s":
+        executar_interface()
+    else:
+        menu()
+        
